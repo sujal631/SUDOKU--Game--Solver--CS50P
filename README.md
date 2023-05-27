@@ -145,7 +145,16 @@ The total score is calculated by subtracting penalties for wrong inputs and time
 
 If you didn't use the solver to auto-solve the game, your details (username, difficulty, time taken, wrong inputs, total score) are saved to a CSV file, **'ranking.csv'**, and you will be included in the rankings, which is sorted by total score in descending order. The rankings are then displayed on the console after every game.
 
-![Leader Board](/project/example_LEADERBOARD.png)
+🏆LEADER BOARD🏆
++--------+------------+--------------+--------------+----------------+---------------+
+| Rank | Username | Difficulty | Time Taken | Wrong Inputs | Total Score |
++========+============+==============+==============+================+===============+
+| 1 | JoshiDai07 | EASY | 3:33 | 0 | 108 |
++--------+------------+--------------+--------------+----------------+---------------+
+| 2 | LeoDawg | EASY | 3:47 | 3 | 90 |
++--------+------------+--------------+--------------+----------------+---------------+
+| 3 | shilpa | MEDIUM | 12:12 | 3 | 39 |
++--------+------------+--------------+--------------+----------------+---------------+
 
 ## **Exiting the Game:**
 
@@ -160,15 +169,15 @@ Do you want to replay the game? (Yes/Y to replay):
 - If you desire to exit the game, enter any response other than 'Y' or 'Yes'. Upon doing so, the game will terminate, and you'll be greeted with the following farewell message:
 
 ```
-  ____________________________________
+  ____________________________________________
 | Sad to see you go. Thank you for playing. ❤️ |
-  ================================
+  ============================================
                                             \
                                              \
                                                ^__^
-                                               (oo)\______
-                                               (__)\              )\/\
-                                                   ||---------w |
-                                                   ||               ||
+                                               (oo)\_______
+                                               (__)\       )\/\
+                                                   ||----w |
+                                                   ||     ||
 
 ```
