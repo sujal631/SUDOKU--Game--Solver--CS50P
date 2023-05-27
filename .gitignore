@@ -1,0 +1,8 @@
+
+__pycache__/ 
+venv/ 
+*.py[cod] 
+*.pyo 
+*.pyd 
+project_text.py 
+ranking.csv 
