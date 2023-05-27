@@ -96,7 +96,7 @@ Once username and difficulty level is chosen, you will see a SUDOKU board on the
 4. **Hit 'ENTER' to confirm the digit.** If the digit is correct, it stays, else it gets deleted. The count of wrong inputs is maintained.
 5. **Stuck? Hit 'SPACEBAR' to auto complete the puzzle.** This will automatically solve the puzzle for you, but beware, using this option will not earn you any points.
 
-   ![SUDOKU display](/project/example_SUDOKU_display.png)
+   ![SUDOKU display](https://github.com/sujal631/SUDOKU--Game--Solver--CS50P/blob/master/example_SUDOKU_display.png)
 
 ## **Game Summary:**
 
@@ -105,12 +105,12 @@ After completing the game, a summary is printed out on the console. It shows the
 ```
 JoshiDai07, here is your game summary:
 
-        Game difficulty:                            EASY
+        Game difficulty:                    EASY
         Time taken to solve the puzzle:     3:33
-        Number of wrong inputs:              0
-        Was puzzle auto-solved?:              No
+        Number of wrong inputs:             0
+        Was puzzle auto-solved?:            No
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Total Score:                                   108
+        Total Score:                        108
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
@@ -145,16 +145,7 @@ The total score is calculated by subtracting penalties for wrong inputs and time
 
 If you didn't use the solver to auto-solve the game, your details (username, difficulty, time taken, wrong inputs, total score) are saved to a CSV file, **'ranking.csv'**, and you will be included in the rankings, which is sorted by total score in descending order. The rankings are then displayed on the console after every game.
 
-🏆LEADER BOARD🏆
-+--------+------------+--------------+--------------+----------------+---------------+
-| Rank | Username | Difficulty | Time Taken | Wrong Inputs | Total Score |
-+========+============+==============+==============+================+===============+
-| 1 | JoshiDai07 | EASY | 3:33 | 0 | 108 |
-+--------+------------+--------------+--------------+----------------+---------------+
-| 2 | LeoDawg | EASY | 3:47 | 3 | 90 |
-+--------+------------+--------------+--------------+----------------+---------------+
-| 3 | shilpa | MEDIUM | 12:12 | 3 | 39 |
-+--------+------------+--------------+--------------+----------------+---------------+
+![LEADER BOARD](https://github.com/sujal631/SUDOKU--Game--Solver--CS50P/blob/master/example_LEADERBOARD.png)
 
 ## **Exiting the Game:**
 
