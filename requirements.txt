@@ -1,9 +1,4 @@
 pygame
-itertools
-time
-random
-os
-csv
 tabulate
 rich
 cowsay
